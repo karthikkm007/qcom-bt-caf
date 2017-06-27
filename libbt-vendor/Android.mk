@@ -65,6 +65,9 @@ LOCAL_SHARED_LIBRARIES := \
         liblog \
         libbtnv
 
+LOCAL_HEADER_LIBRARIES := \
+        libutils_headers
+
 LOCAL_MODULE := libbt-vendor
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
